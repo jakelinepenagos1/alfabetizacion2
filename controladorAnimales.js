@@ -54,6 +54,11 @@ function activaranimalA1(){
                 else {
                     let audio=new Audio("audio/gallina.mp3");
                     audio.play();
+                    setTimeout(function(){
+
+                        audio.pause();
+
+                    },2000);
                     let resultadoanimalA=document.getElementById("resultaanimalA");
                     resultadoanimalA.classList.remove("invisible")
                 }
@@ -106,6 +111,11 @@ function activaranimalB1(){
         else {
             let audio=new Audio("audio/leon.mp3");
             audio.play();
+            setTimeout(function(){
+
+                audio.pause();
+
+            },2000);
             let resultaanimalB=document.getElementById("resultaanimalB");
             resultaanimalB.classList.remove("invisible")
             console.log("t")
@@ -155,6 +165,11 @@ function activaranimalC1(){
                     else {
                         let audio=new Audio("audio/perro.mp3");
                         audio.play();
+                        setTimeout(function(){
+
+                            audio.pause();
+    
+                        },2000);
                         let resultaanimalC=document.getElementById("resultaanimalC");
                         resultaanimalC.classList.remove("invisible")
                     }
@@ -202,6 +217,11 @@ function activaranimalD1(){
             else {
                 let audio=new Audio("audio/vaca.mp3");
                 audio.play();
+                setTimeout(function(){
+
+                    audio.pause();
+
+                },2000);
                 let resultaanimalD=document.getElementById("resultaanimalD");
                 resultaanimalD.classList.remove("invisible")
             }
